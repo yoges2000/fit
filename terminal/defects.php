@@ -193,6 +193,8 @@ $length = round(GFV("STD_MACHINES", "MC_LENGTH", "MC_ID='$glob_mcid'"), 2)
 				// Add the character
 				$write.val($write.val() + character);
 				get_defect_keys($write.val());
+				console.log($write.val());
+
 			});
 		});
 
